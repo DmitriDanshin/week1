@@ -8,7 +8,7 @@ app.get('/',(req,res)=>{
     res.end('dmitri5');
 })
 
-app.get('/login',(req,res)=>{
+app.get('/login/',(req,res)=>{
     res.end('dmitri5');
 })
 
