@@ -5,11 +5,11 @@ const app = express();
 const PORT = process.env.PORT || 80;
 
 app.get('/',(req,res)=>{
-    res.end('dmitri5');
+    res.end('main page');
 })
 
 app.get('/login/',(req,res)=>{
-    res.end('dmitri5');
+    res.end('login page');
 })
 
 app.listen(PORT, ()=>{
